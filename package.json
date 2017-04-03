@@ -1,12 +1,35 @@
+
 {
   "name": "tut",
   "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
+  "description": "Node.js sample app for OpenShift 3",
+  "main": "index.js",
   "dependencies": {
-    "express": "3.2.6",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "ejs": "^2.4.1",
+    "express": "^3.2.6",
+    "mocha": "^2.4.5",
+    "mongodb": "^2.1.16",
+    "morgan": "^1.7.0",
+    "object-assign":"4.1.0"
     "jade": "*"
-  }
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VincWeiss/Webchat/Webchat.git"
+  },
+  "author": "Vincent",
+  "license": "CC-BY-1.0",
+  "bugs": {
+    "url": "https://github.com/VincWeiss/Webchat"
+  },
+  "homepage": "https://github.com/VincWeiss/Webchat"
 }
